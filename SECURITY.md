@@ -1,5 +1,7 @@
 # Security policy
 
-Report vulnerabilities through GitHub security advisories. Do not include private vault exports or personal media in public issues.
+Security fixes are applied to the latest `main` build.
 
-This release stores keepsakes in browser local storage. Use Export vault before clearing site data or changing browsers.
+Please do not open a public issue for a suspected vulnerability. Use GitHub’s **Report a vulnerability** private advisory flow. Include impact, affected version, and reproduction steps. Expect an acknowledgement within seven days.
+
+Never include private notes, images, or personal data unless strictly necessary; redact and minimize first.

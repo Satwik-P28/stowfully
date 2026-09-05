@@ -13,6 +13,7 @@ import {
   Plus,
   Search,
   ShieldCheck,
+  Star,
   StickyNote,
   Trash2,
   X,
@@ -155,6 +156,20 @@ export default function Home() {
           <Badge variant="outline" className="hidden sm:flex">
             <ShieldCheck data-icon="inline-start" /> Private by default
           </Badge>
+          <Button
+            variant="outline"
+            nativeButton={false}
+            render={
+              <a
+                href="https://github.com/Satwik-P28/stowfully"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="Star Stowfully on GitHub"
+              />
+            }
+          >
+            <Star data-icon="inline-start" /> Star
+          </Button>
           <Button onClick={() => setComposer(true)}>
             <Plus data-icon="inline-start" /> Add keepsake
           </Button>
