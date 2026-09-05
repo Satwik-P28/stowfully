@@ -7,13 +7,13 @@ import {
   Download,
   ExternalLink,
   FileUp,
-  Github,
   Grid2X2,
   Image as ImageIcon,
   Link2,
   Plus,
   Search,
   ShieldCheck,
+  Star,
   StickyNote,
   Trash2,
   X,
@@ -168,7 +168,7 @@ export default function Home() {
               />
             }
           >
-            <Github data-icon="inline-start" /> Star
+            <Star data-icon="inline-start" /> Star
           </Button>
           <Button onClick={() => setComposer(true)}>
             <Plus data-icon="inline-start" /> Add keepsake
