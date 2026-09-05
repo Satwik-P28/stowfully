@@ -2,6 +2,24 @@
   "name": "stowfully",
   "version": "0.1.0",
   "private": true,
+  "description": "Local-first visual memory vault for links, notes, and images.",
+  "license": "MIT",
+  "homepage": "https://stowfully.nex3sss.chatgpt.site",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Satwik-P28/stowfully.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Satwik-P28/stowfully/issues"
+  },
+  "keywords": [
+    "bookmarks",
+    "mymind-alternative",
+    "pkm",
+    "local-first",
+    "privacy",
+    "open-source"
+  ],
   "engines": {
     "node": ">=22.13.0"
   },
